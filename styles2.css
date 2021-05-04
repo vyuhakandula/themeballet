@@ -1,0 +1,107 @@
+body{
+	font-family: "Comic Sans MS",cursive;
+  background-image: url(https://res.cloudinary.com/gretakoutika0910/image/upload/v1620141922/TB/alumbg_y3u8ax.jpg);
+  background-size: cover;
+}
+nav{
+	padding: 15px;
+	padding-top: 15px;
+	background-color: black;
+	font-family: "Comic Sans MS",cursive;
+
+}
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: white;
+    border:none;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+.navbar-brand img
+{
+	margin-right: 20px;
+
+}
+.navbar-brand{
+	color:white;
+}
+.navbar-brand:hover{
+	text-decoration: underline;
+	color: white;
+}
+.navbar-nav{
+	padding-left:80%; 
+}
+a.nav-link{
+	color:white;
+}
+.nav-item:hover{
+	border-bottom: solid white 3px;
+	color:white;
+}
+.card{
+	margin:20px;
+	height:420px;
+	width:320px;
+  
+	color: white;
+  background-color: transparent;
+
+}
+.card img{
+	padding: 10px;
+	height:300px;
+	width:300px;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: #050505;
+  border-radius: 20px;
+  background: -webkit-linear-gradient(to top, rgba(5, 5, 5, 0.5), rgba(216, 202, 202, 0.5));
+  background: linear-gradient(to top, rgba(5, 5, 5, 0.5), rgba(216, 202, 202, 0.5));
+  text-decoration: underline;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heading{
+	margin: 10px;
+	text-align:center;
+	font-size: 180%;
+  color:white;
+}
